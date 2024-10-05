@@ -159,7 +159,7 @@ class ModmailBot(commands.Bot):
         if os.environ.get("TERM"):
             return HostingMethod.SCREEN
 
-        return HostingMethod.CJSCOMMISIONS
+        return HostingMethod.OTHER
 
     def startup(self):
         logger.line()
